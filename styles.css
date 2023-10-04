@@ -34,12 +34,12 @@ header{
 .seccion-3 {
     display: flex;
     justify-content: space-between;
-    width: 30%;
+    flex-wrap: wrap;
     background-color:rgb(20, 39, 125);
-
 }
 
 .s3-container {
+    max-width: 20%;
     background-color:rgb(245, 249, 166);
     border-radius: 10px;
     padding: 20px;
